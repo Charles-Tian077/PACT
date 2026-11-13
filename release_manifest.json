@@ -1,6 +1,10 @@
 {
   "status": "PASSED",
   "files": {
+    ".gitattributes": {
+      "bytes": 90,
+      "sha256": "282eb64113f29ad3ec11749b064c7821cdcc1b0ad2d76fce0cb02bda0e33043c"
+    },
     ".gitignore": {
       "bytes": 142,
       "sha256": "d19761103ab89d57dd65290fa807ca3959312d960a03db2e6406814761adca36"
@@ -222,8 +226,8 @@
       "sha256": "9833b39c55f55b55000070364052cc917a6208848b8f825dc9b2ac6a59fd8e6b"
     },
     "README.md": {
-      "bytes": 4451,
-      "sha256": "77ede83b7381a0d584470508f5ff98ccf68464ea753923117608413ed688f5a9"
+      "bytes": 4832,
+      "sha256": "0163da8447c6749b12f68b9648507a48a483cb3d2b2ffa1b2d382ee55dacc347"
     },
     "requirements.txt": {
       "bytes": 30,

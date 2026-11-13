@@ -32,6 +32,12 @@ The first command checks every artifact SHA, recomputes all 57 Qwen seed rows
 their disjoint image roles without fitting or changing them. The export command
 writes all means and seeds to `results/`; it never chooses the best seed.
 
+To rerun only the original auxiliary ridge fits on the released TRAIN arrays,
+use `python scripts/reproduce_training.py --output runs/reproduced_heads.json`.
+This performs 16 fits with the fixed roles and hyperparameters, checks agreement
+with the frozen heads and refuses to overwrite an existing output. It does not
+read evaluation outcomes or replace the released model.
+
 ## Main comparison
 
 On the final 512-image / 1,024-query held-out Qwen cohort, PACT reduces the rate
