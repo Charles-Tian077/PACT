@@ -1,0 +1,81 @@
+{
+  "status": "FROZEN_NUMERIC_REVIEW_EXPORT",
+  "files": [
+    {
+      "path": "budget.py",
+      "sha256": "2bfd622bc0775a4941f898679d2a2914a9b0e047de0bbc6269745947dcafb7c4",
+      "bytes": 3037
+    },
+    {
+      "path": "data/internvl_metrics_arrays.npz",
+      "sha256": "c60fc0831dc41e87262b3bb0b320fca73358692f3517ad1876a320bec50ece46",
+      "bytes": 126512
+    },
+    {
+      "path": "data/internvl_online_timing.json",
+      "sha256": "2162660b47485d0dc490140e95bab8c0f5aaccfd6a63c51756442a23ed7cd5a6",
+      "bytes": 1675
+    },
+    {
+      "path": "data/internvl_predictions.json",
+      "sha256": "2040b07507d5c09481f3956bc27a47ad509b85b19f0d181c588192cd08638cb3",
+      "bytes": 1748151
+    },
+    {
+      "path": "data/internvl_result.json",
+      "sha256": "ddfc96a2025c0e8460c1e812f9f3bd802daa7a02fe3313e056a33bdc77c36ca4",
+      "bytes": 25218
+    },
+    {
+      "path": "data/qwen_frozen_candidates.json",
+      "sha256": "69b5a92a17fb9e20699209130553bae6027db0d011e682ecf4be4b75437ca0c3",
+      "bytes": 368931
+    },
+    {
+      "path": "data/qwen_native_data.npz",
+      "sha256": "4d807ac67bb9bdd0cdaede2b2cf30d8c199bf3ae2f61e91c63b79490654b5bd3",
+      "bytes": 3236943
+    },
+    {
+      "path": "data/qwen_online_timing.json",
+      "sha256": "f0cfb0c89af7d6cbf2484eed923fb11ea7e45840a88d4256477ba15621c1f188",
+      "bytes": 5157
+    },
+    {
+      "path": "data/qwen_predictions.json",
+      "sha256": "658b133f92bd08bdff73bbe098e947a4b0b1edb6114e2b8245c6c1dfb3b277ed",
+      "bytes": 1931558
+    },
+    {
+      "path": "data/qwen_result.json",
+      "sha256": "b13257ecedc796cf51490b855cc737c16c36aa5c0f813375b6b14f4bf69b9d3a",
+      "bytes": 68178
+    },
+    {
+      "path": "data/qwen_training_controls.json",
+      "sha256": "f6a7b748ebc242a4d45e27d58bf0182b6a5d7f38044796635ed9e703116d9feb",
+      "bytes": 442592
+    },
+    {
+      "path": "frozen_math.py",
+      "sha256": "afc36c022eb420f60938c09358758f63924325edc4aed980d50cac3d0d329293",
+      "bytes": 3197
+    },
+    {
+      "path": "README.txt",
+      "sha256": "8a6def84c261417b464edfa0e53423f4e841beb1ef1577bf854d29299415a2f8",
+      "bytes": 2384
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "3ffb9fbd19ad87b737548d4052ba22991fbcd831ef55902f648d42ffc61dbd23",
+      "bytes": 14
+    },
+    {
+      "path": "verify_results.py",
+      "sha256": "937fc0cbd5f6ae624c70a28796ccec3a1e9d257a918a9d73e45621c0af75d011",
+      "bytes": 8883
+    }
+  ],
+  "primary_arm": "wide_PACT"
+}

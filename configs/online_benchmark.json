@@ -1,0 +1,39 @@
+{
+  "arms": [
+    "SFT",
+    "wide_PACT",
+    "wide_preMean",
+    "wide_Whole39"
+  ],
+  "physical_GPUs": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "queries": 32,
+  "images": 16,
+  "repeats": 3,
+  "selection": "First16 image-content SHA identities of the fresh cohort; both queries, no outcome filtering.",
+  "block_size": 32,
+  "inference_batch_size": 1,
+  "seed": 42,
+  "minimum_untimed_warmup_queries": 2,
+  "normal_path": "Identity-order streaming for the already frozen N=32, no-rescue, quarter-cap policy. Each query performs one original prefill and at most one selected trial.",
+  "input_only_native_reference": "Reuse the independently repeated full native capture for exact parity; reference access and hashes excluded from timings.",
+  "timing": "All32 queries arrive together; every arm processes the same sample-identity order and returns each mask after that query finishes. Timers include preprocessing, real Qwen/SAM, CPU readouts and online systematic rounding.",
+  "all_GPU_timers_synchronized": true,
+  "baseline_masks_exact": true,
+  "rollback_identity_required": true,
+  "GT_read": false,
+  "new_model_fits": 0,
+  "maximum_GPU_count": 4,
+  "small_prerequisite_failure_retained": true,
+  "formal_adoption": false,
+  "batch_policy_equivalence": "Because sum_i .25*eligible_i <= N/4 for N divisible by4, the shared cap is nonbinding. Identity-order prefix rounding gives exactly the frozen batch trial mask; verify every timed repeat.",
+  "model_policy_changed": false,
+  "additional_fits": 0,
+  "additional_neural_updates": 0,
+  "quality_evaluation_unchanged": true,
+  "memory_note": "Audit retains detached per-query tensors until end of block; peak memory is for the audited path."
+}

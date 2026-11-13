@@ -1,0 +1,53 @@
+{
+  "status": "NATIVE_INTERNVL_NORMAL_PATH_LATENCY_COMPLETE",
+  "results": {
+    "SFT": {
+      "queries": 96,
+      "seconds_per_query_end_to_end": 0.10742990683017221,
+      "block_seconds": [
+        3.4372586358804256,
+        3.4391458018217236,
+        3.436866617994383
+      ],
+      "same_batch_arrival_p50": 1.7633624889422208,
+      "same_batch_arrival_p95": 3.3294954679440707,
+      "base_service_p50": 0.10700688243377954,
+      "base_service_p95": 0.11129807023098692,
+      "peak_allocated_bytes": 13629387776,
+      "InternVL_prefills": 96,
+      "baseline_SAM_decodes": 96,
+      "additional_SAM_decodes": 0
+    },
+    "PACT": {
+      "queries": 96,
+      "seconds_per_query_end_to_end": 0.1114205709673115,
+      "block_seconds": [
+        3.5638733168598264,
+        3.5707824320998043,
+        3.5617190639022738
+      ],
+      "same_batch_arrival_p50": 3.5635102498345077,
+      "same_batch_arrival_p95": 3.57040077005513,
+      "base_service_p50": 0.10959889541845769,
+      "base_service_p95": 0.11448025854770094,
+      "peak_allocated_bytes": 13871603200,
+      "InternVL_prefills": 96,
+      "baseline_SAM_decodes": 96,
+      "additional_SAM_decodes": 12
+    }
+  },
+  "physical_GPU": 5,
+  "hardware": "NVIDIA H200",
+  "inference_batch_size": 1,
+  "scheduling_block_size": 32,
+  "all_parameters_unchanged": true,
+  "GT_reads": 0,
+  "new_updates": 0,
+  "excluded": [
+    "model loading",
+    "signature hashing",
+    "exhaustive parity capture",
+    "warmup"
+  ],
+  "scope": "Native frozen InternVL head-only adapter baseline and one-prefill/one-trial PACT, with image encoder recomputed per query; not exhaustive8candidate capture or cache replay"
+}

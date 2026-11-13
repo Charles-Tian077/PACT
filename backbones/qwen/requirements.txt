@@ -1,0 +1,30 @@
+# Core ML
+torch>=2.6.0,<2.10
+torchvision>=0.21.0,<0.25
+transformers==4.57.1
+accelerate>=1.0,<2
+
+# PEFT / LoRA
+peft==0.17.1
+
+# SAM (segment_anything)
+segment-anything==1.0
+
+# SDPA is the default. Flash Attention is optional and installed separately.
+
+# Tokenization
+sentencepiece>=0.2.0
+tiktoken>=0.7.0
+
+# Data & utilities
+numpy>=1.24.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+scikit-image>=0.21.0
+einops>=0.7.0
+
+# Monitoring
+wandb>=0.16.0
+
+# Distributed training utilities
+ninja>=1.11.0

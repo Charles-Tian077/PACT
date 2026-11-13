@@ -1,0 +1,186 @@
+{
+  "experiments/reproduction/budget.py": {
+    "sha256": "2bfd622bc0775a4941f898679d2a2914a9b0e047de0bbc6269745947dcafb7c4",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/frozen_math.py": {
+    "sha256": "afc36c022eb420f60938c09358758f63924325edc4aed980d50cac3d0d329293",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/manifest.json": {
+    "sha256": "f93d2a4b62c5a1ba9d65ee66b8ae0c7167f5d8b728c2d121040d74203fb3614c",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/README.txt": {
+    "sha256": "8a6def84c261417b464edfa0e53423f4e841beb1ef1577bf854d29299415a2f8",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/requirements.txt": {
+    "sha256": "3ffb9fbd19ad87b737548d4052ba22991fbcd831ef55902f648d42ffc61dbd23",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/verify_results.py": {
+    "sha256": "937fc0cbd5f6ae624c70a28796ccec3a1e9d257a918a9d73e45621c0af75d011",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/internvl_metrics_arrays.npz": {
+    "sha256": "c60fc0831dc41e87262b3bb0b320fca73358692f3517ad1876a320bec50ece46",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/internvl_online_timing.json": {
+    "sha256": "2162660b47485d0dc490140e95bab8c0f5aaccfd6a63c51756442a23ed7cd5a6",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/internvl_predictions.json": {
+    "sha256": "2040b07507d5c09481f3956bc27a47ad509b85b19f0d181c588192cd08638cb3",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/internvl_result.json": {
+    "sha256": "ddfc96a2025c0e8460c1e812f9f3bd802daa7a02fe3313e056a33bdc77c36ca4",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/qwen_frozen_candidates.json": {
+    "sha256": "69b5a92a17fb9e20699209130553bae6027db0d011e682ecf4be4b75437ca0c3",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/qwen_native_data.npz": {
+    "sha256": "4d807ac67bb9bdd0cdaede2b2cf30d8c199bf3ae2f61e91c63b79490654b5bd3",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/qwen_online_timing.json": {
+    "sha256": "f0cfb0c89af7d6cbf2484eed923fb11ea7e45840a88d4256477ba15621c1f188",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/qwen_predictions.json": {
+    "sha256": "658b133f92bd08bdff73bbe098e947a4b0b1edb6114e2b8245c6c1dfb3b277ed",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/qwen_result.json": {
+    "sha256": "b13257ecedc796cf51490b855cc737c16c36aa5c0f813375b6b14f4bf69b9d3a",
+    "source_kind": "verified research artifact"
+  },
+  "experiments/reproduction/data/qwen_training_controls.json": {
+    "sha256": "f6a7b748ebc242a4d45e27d58bf0182b6a5d7f38044796635ed9e703116d9feb",
+    "source_kind": "verified research artifact"
+  },
+  "pact/frozen_math.py": {
+    "sha256": "afc36c022eb420f60938c09358758f63924325edc4aed980d50cac3d0d329293",
+    "source_kind": "verified research artifact"
+  },
+  "pact/budget.py": {
+    "sha256": "2bfd622bc0775a4941f898679d2a2914a9b0e047de0bbc6269745947dcafb7c4",
+    "source_kind": "verified research artifact"
+  },
+  "pact/feature_maps.py": {
+    "sha256": "c65d01ba3c29979f79add80caf32662b6a78cabad5773e0d653a348c22cf7882",
+    "source_kind": "verified research artifact"
+  },
+  "pact/pre_features.py": {
+    "sha256": "91cc23125b0724bfcd43d260000dce5354b8f5307c75a98e697fd8e1fc1b36d7",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/convex_repair_policy.py": {
+    "sha256": "dbc1a1b11d6dfcb2c15017d77d6ebd5c0813170d39f69ba0287608756477c243",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/evidence_policy.py": {
+    "sha256": "1873991905600748b42015c40153b7f1df4e450d2fe8122458bf2f584a14501d",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/hierarchical_policy.py": {
+    "sha256": "bd8beb37d4423158eb1a8cfaa94cc361801bcf34adeca3bef9d6a82434b3dee3",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/qwen3vl_config.py": {
+    "sha256": "96aebf364a47642ea969b9c7627edd7f9bf1bc8c5f3d23f37f3453b2f9bf22f8",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/selective_repair_policy.py": {
+    "sha256": "791940ded62ac98c204db0db0158b5c0f9793b410931723e39ca89f4905316ad",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/sesame_qwen3vl.py": {
+    "sha256": "376624619be996ee689425c43a40aafa5087ce50f592dc9469fb68802c30c157",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/token_adapters.py": {
+    "sha256": "9b0602d5d146c232f6404f3257a9c7f6b90ab61edc980ad1ad0f0b3e2777e4aa",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/__init__.py": {
+    "sha256": "167c15f85e559e5493bd7c4d53c7a3c0a63d353da7929bf2be954bb922bcc825",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/recourse/core.py": {
+    "sha256": "98b08cd25daf9f16621af4985e76eec091fb33c314d0a9a7345a48621fdbf69a",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/recourse/final_control.py": {
+    "sha256": "0688bdfd276296f4c5ec036b847202cd296145a5d8d8571579a9e2e32a8e68d7",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/recourse/runtime.py": {
+    "sha256": "6f7cd23fe9b252b214407bf1c3ae0d9e162bf0f008ab0056bce81bb8be5c1cd1",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/model/recourse/__init__.py": {
+    "sha256": "e2f81c6da8254ae6db20d8a1160a42636ab5f0c85548b3860d3114d6c75eb7df",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/dataloaders/data_utils.py": {
+    "sha256": "9121a05fe69561f42ce40fc9e3e5bdf9562745390307892e17f045c31c2afe1c",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/dataloaders/sesame_datasets.py": {
+    "sha256": "de3e63f110cce5f546d67ce9033f4f948d627e425133b210e2b7d8547ec0c9ec",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/dataloaders/__init__.py": {
+    "sha256": "0938a388065db97db1c38086ba2f289945c7085f60a8518d2c5d4baf723c005e",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/train_sesame_qwen3vl.py": {
+    "sha256": "4e660154e94c25b61776941b8ea0aae24e375ca08dc2c05350e6ad45786cb6d9",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/eval_sesame_qwen3vl.py": {
+    "sha256": "552011789ad5574797fb81186163f4682962fa04e24f13bd704695b1e960c7eb",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/runtime_utils.py": {
+    "sha256": "77e51da48f1675e753c07d0c69ca2fbed9b1f46b93047d1b316243dca493d9a1",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/training_normalization.py": {
+    "sha256": "8b00a25fddd5454ef13161c06c63a124c621b2d5a1e96aff04e9471c80fb13d9",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/policy_optimization.py": {
+    "sha256": "43807b81222a1101269908e03cefd004e711e0cbdbc9f217d1ecab10c1424887",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/repair_risk.py": {
+    "sha256": "1c1b1fd2873746449b0bbd54d2e51f181f2f82312efa85193a5222e76eae6b14",
+    "source_kind": "verified research artifact"
+  },
+  "backbones/qwen/requirements.txt": {
+    "sha256": "39e3aced727ec6d5eb6cb03e8e318527f8bc845ae9c8dec206efec49145873f3",
+    "source_kind": "verified research artifact"
+  },
+  "data/train_features.npz": {
+    "sha256": "f1988174a672ec40db49b154c187f2c380b79e3a6c5b6f37871f69d41c859c61",
+    "source_kind": "verified research artifact"
+  },
+  "data/frozen_training_models.json": {
+    "sha256": "02a79a9a08b6b1dfdab01ffe2396fb742b1cdd5c199ee5f8698f4247aae47d70",
+    "source_kind": "verified research artifact"
+  },
+  "configs/final_evaluation.json": {
+    "sha256": "577a7cd919b072037e59ada639141c40f6136dc476f22e42ff4b44a4d008f69f",
+    "source_kind": "verified research artifact"
+  },
+  "configs/online_benchmark.json": {
+    "sha256": "c5656fcdf72a8c4dc3064c34c99af4f6e78ecfe3d1e1c3ff537ef6ff2cbb790a",
+    "source_kind": "verified research artifact"
+  }
+}

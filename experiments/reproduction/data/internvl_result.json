@@ -1,0 +1,991 @@
+{
+  "status": "NATIVE_INTERNVL_FULL_DIAGNOSTIC_COMPLETE",
+  "results": {
+    "SFT": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": 0.0,
+            "net_hard_iou": 0.0,
+            "gIoU": 0.2575435852130531,
+            "cIoU": 0.3003829439792697,
+            "harm": 0.0,
+            "extra_decode": 0.0,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 0
+          }
+        },
+        {
+          "seed": 43,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": 0.0,
+            "net_hard_iou": 0.0,
+            "gIoU": 0.2575435852130531,
+            "cIoU": 0.3003829439792697,
+            "harm": 0.0,
+            "extra_decode": 0.0,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 0
+          }
+        },
+        {
+          "seed": 44,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": 0.0,
+            "net_hard_iou": 0.0,
+            "gIoU": 0.2575435852130531,
+            "cIoU": 0.3003829439792697,
+            "harm": 0.0,
+            "extra_decode": 0.0,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 0
+          }
+        }
+      ],
+      "mean": {
+        "FP": 100.0,
+        "FN": 85.0,
+        "negative": 512.0,
+        "positive": 512.0,
+        "FPR": 0.1953125,
+        "FNR": 0.166015625,
+        "net_original_utility": 0.0,
+        "net_hard_iou": 0.0,
+        "gIoU": 0.2575435852130531,
+        "cIoU": 0.3003829439792697,
+        "harm": 0.0,
+        "extra_decode": 0.0,
+        "newFP": 0.0,
+        "newMiss": 0.0,
+        "joint_opportunities": 280.0,
+        "rejected_joint": 81.0,
+        "joint_used": 0.0
+      }
+    },
+    "MeanTarget": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.00010831391788087793,
+            "net_hard_iou": 0.00010677192481135991,
+            "gIoU": 0.25765035713786444,
+            "cIoU": 0.301005146013674,
+            "harm": 0.001953125,
+            "extra_decode": 0.0302734375,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 1
+          }
+        },
+        {
+          "seed": 43,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.0006276021886151284,
+            "net_hard_iou": -0.0008767665262173021,
+            "gIoU": 0.25666681868683583,
+            "cIoU": 0.2990748620864891,
+            "harm": 0.009765625,
+            "extra_decode": 0.0302734375,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 1
+          }
+        },
+        {
+          "seed": 44,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.00018539916956797245,
+            "net_hard_iou": -0.00022846070959450852,
+            "gIoU": 0.2573151245034586,
+            "cIoU": 0.3000046555097507,
+            "harm": 0.001953125,
+            "extra_decode": 0.033203125,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 0
+          }
+        }
+      ],
+      "mean": {
+        "FP": 100.0,
+        "FN": 85.0,
+        "negative": 512.0,
+        "positive": 512.0,
+        "FPR": 0.1953125,
+        "FNR": 0.166015625,
+        "net_original_utility": -0.0003071050920213263,
+        "net_hard_iou": -0.00033281843700015023,
+        "gIoU": 0.257210766776053,
+        "cIoU": 0.3000282212033046,
+        "harm": 0.004557291666666667,
+        "extra_decode": 0.03125,
+        "newFP": 0.0,
+        "newMiss": 0.0,
+        "joint_opportunities": 280.0,
+        "rejected_joint": 81.0,
+        "joint_used": 0.6666666666666666
+      }
+    },
+    "Whole39": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": 0.0001040258561260997,
+            "net_hard_iou": 0.000735590392644081,
+            "gIoU": 0.2582791756056972,
+            "cIoU": 0.2991268605240945,
+            "harm": 0.0078125,
+            "extra_decode": 0.1005859375,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 8
+          }
+        },
+        {
+          "seed": 43,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.000260907366173342,
+            "net_hard_iou": -4.565938104432037e-05,
+            "gIoU": 0.2574979258320088,
+            "cIoU": 0.29970942486863256,
+            "harm": 0.01953125,
+            "extra_decode": 0.09765625,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 4
+          }
+        },
+        {
+          "seed": 44,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": 8.332371711730949e-05,
+            "net_hard_iou": 0.0003369399693161346,
+            "gIoU": 0.25788052518236926,
+            "cIoU": 0.30072506130845267,
+            "harm": 0.00390625,
+            "extra_decode": 0.0986328125,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 3
+          }
+        }
+      ],
+      "mean": {
+        "FP": 100.0,
+        "FN": 85.0,
+        "negative": 512.0,
+        "positive": 512.0,
+        "FPR": 0.1953125,
+        "FNR": 0.166015625,
+        "net_original_utility": -2.4519264309977595e-05,
+        "net_hard_iou": 0.00034229032697196505,
+        "gIoU": 0.25788587554002507,
+        "cIoU": 0.29985378223372655,
+        "harm": 0.010416666666666666,
+        "extra_decode": 0.09895833333333333,
+        "newFP": 0.0,
+        "newMiss": 0.0,
+        "joint_opportunities": 280.0,
+        "rejected_joint": 81.0,
+        "joint_used": 5.0
+      }
+    },
+    "Whole39SameProposal": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.0007000507542397828,
+            "net_hard_iou": -0.00035226603171938564,
+            "gIoU": 0.2571913191813337,
+            "cIoU": 0.2993170997970558,
+            "harm": 0.01171875,
+            "extra_decode": 0.1123046875,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 4
+          }
+        },
+        {
+          "seed": 43,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": 0.0008259840583923505,
+            "net_hard_iou": 0.0015998811067272486,
+            "gIoU": 0.25914346631978036,
+            "cIoU": 0.30071351161157817,
+            "harm": 0.015625,
+            "extra_decode": 0.11328125,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 10
+          }
+        },
+        {
+          "seed": 44,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": 0.00031221100012771767,
+            "net_hard_iou": 0.001551540027033595,
+            "gIoU": 0.2590951252400867,
+            "cIoU": 0.30082800607683285,
+            "harm": 0.00390625,
+            "extra_decode": 0.1103515625,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 5
+          }
+        }
+      ],
+      "mean": {
+        "FP": 100.0,
+        "FN": 85.0,
+        "negative": 512.0,
+        "positive": 512.0,
+        "FPR": 0.1953125,
+        "FNR": 0.166015625,
+        "net_original_utility": 0.0001460481014267618,
+        "net_hard_iou": 0.000933051700680486,
+        "gIoU": 0.25847663691373357,
+        "cIoU": 0.300286205828489,
+        "harm": 0.010416666666666666,
+        "extra_decode": 0.11197916666666667,
+        "newFP": 0.0,
+        "newMiss": 0.0,
+        "joint_opportunities": 280.0,
+        "rejected_joint": 81.0,
+        "joint_used": 6.333333333333333
+      }
+    },
+    "PACT": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.0013048541091848166,
+            "net_hard_iou": -0.0013925666290013643,
+            "gIoU": 0.25615101858405176,
+            "cIoU": 0.298259854160043,
+            "harm": 0.015625,
+            "extra_decode": 0.1123046875,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 3
+          }
+        },
+        {
+          "seed": 43,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.00015994353154383137,
+            "net_hard_iou": -0.0005766256260595781,
+            "gIoU": 0.25696695958699356,
+            "cIoU": 0.2977205314176198,
+            "harm": 0.017578125,
+            "extra_decode": 0.11328125,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 8
+          }
+        },
+        {
+          "seed": 44,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.00039663872099481544,
+            "net_hard_iou": 0.00014526780186622352,
+            "gIoU": 0.25768885301491934,
+            "cIoU": 0.2991666297553546,
+            "harm": 0.0078125,
+            "extra_decode": 0.1103515625,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 4
+          }
+        }
+      ],
+      "mean": {
+        "FP": 100.0,
+        "FN": 85.0,
+        "negative": 512.0,
+        "positive": 512.0,
+        "FPR": 0.1953125,
+        "FNR": 0.166015625,
+        "net_original_utility": -0.0006204787872411545,
+        "net_hard_iou": -0.0006079748177315729,
+        "gIoU": 0.25693561039532153,
+        "cIoU": 0.29838233844433915,
+        "harm": 0.013671875,
+        "extra_decode": 0.11197916666666667,
+        "newFP": 0.0,
+        "newMiss": 0.0,
+        "joint_opportunities": 280.0,
+        "rejected_joint": 81.0,
+        "joint_used": 5.0
+      }
+    },
+    "ForcedAccept": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.005265173267325736,
+            "net_hard_iou": -0.003068524951700465,
+            "gIoU": 0.25447506026135264,
+            "cIoU": 0.29711082060927463,
+            "harm": 0.0625,
+            "extra_decode": 0.1123046875,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 25
+          }
+        },
+        {
+          "seed": 43,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.0045480447382578865,
+            "net_hard_iou": -0.002397463166374466,
+            "gIoU": 0.25514612204667864,
+            "cIoU": 0.2961334650582221,
+            "harm": 0.06640625,
+            "extra_decode": 0.11328125,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 30
+          }
+        },
+        {
+          "seed": 44,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.004029885423224187,
+            "net_hard_iou": 0.00039006857425871386,
+            "gIoU": 0.2579336537873118,
+            "cIoU": 0.30052556723317275,
+            "harm": 0.044921875,
+            "extra_decode": 0.1103515625,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 23
+          }
+        }
+      ],
+      "mean": {
+        "FP": 100.0,
+        "FN": 85.0,
+        "negative": 512.0,
+        "positive": 512.0,
+        "FPR": 0.1953125,
+        "FNR": 0.166015625,
+        "net_original_utility": -0.004614367809602603,
+        "net_hard_iou": -0.0016919731812720725,
+        "gIoU": 0.25585161203178103,
+        "cIoU": 0.29792328430022313,
+        "harm": 0.057942708333333336,
+        "extra_decode": 0.11197916666666667,
+        "newFP": 0.0,
+        "newMiss": 0.0,
+        "joint_opportunities": 280.0,
+        "rejected_joint": 81.0,
+        "joint_used": 26.0
+      }
+    },
+    "UniformBudget": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.0008666826132684947,
+            "net_hard_iou": -0.001467897540747535,
+            "gIoU": 0.2560756876723056,
+            "cIoU": 0.2981933375788572,
+            "harm": 0.013671875,
+            "extra_decode": 0.12890625,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 6
+          }
+        },
+        {
+          "seed": 43,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.001396116939140484,
+            "net_hard_iou": -0.0015782317513489462,
+            "gIoU": 0.2559653534617041,
+            "cIoU": 0.2965775713329361,
+            "harm": 0.015625,
+            "extra_decode": 0.12890625,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 5
+          }
+        },
+        {
+          "seed": 44,
+          "metrics": {
+            "FP": 100,
+            "FN": 85,
+            "negative": 512,
+            "positive": 512,
+            "FPR": 0.1953125,
+            "FNR": 0.166015625,
+            "net_original_utility": -0.0004741631238721312,
+            "net_hard_iou": -0.0007507404034188986,
+            "gIoU": 0.2567928448096342,
+            "cIoU": 0.2985978336496989,
+            "harm": 0.01171875,
+            "extra_decode": 0.1279296875,
+            "newFP": 0.0,
+            "newMiss": 0.0,
+            "joint_opportunities": 280,
+            "rejected_joint": 81,
+            "joint_used": 6
+          }
+        }
+      ],
+      "mean": {
+        "FP": 100.0,
+        "FN": 85.0,
+        "negative": 512.0,
+        "positive": 512.0,
+        "FPR": 0.1953125,
+        "FNR": 0.166015625,
+        "net_original_utility": -0.0009123208920937034,
+        "net_hard_iou": -0.0012656232318384601,
+        "gIoU": 0.2562779619812146,
+        "cIoU": 0.2977895808538307,
+        "harm": 0.013671875,
+        "extra_decode": 0.12858072916666666,
+        "newFP": 0.0,
+        "newMiss": 0.0,
+        "joint_opportunities": 280.0,
+        "rejected_joint": 81.0,
+        "joint_used": 5.666666666666667
+      }
+    }
+  },
+  "paired_image95ci": {
+    "SFT": {
+      "netU": [
+        0.0,
+        0.0
+      ],
+      "netIoU": [
+        0.0,
+        0.0
+      ],
+      "FPR": [
+        0.162060546875,
+        0.228515625
+      ],
+      "FNR": [
+        0.134765625,
+        0.19921875
+      ],
+      "harm": [
+        0.0,
+        0.0
+      ],
+      "extraDecode": [
+        0.0,
+        0.0
+      ]
+    },
+    "MeanTarget": {
+      "netU": [
+        -0.00042692493413536186,
+        0.0002272920405375768
+      ],
+      "netIoU": [
+        -0.0007468822011339914,
+        0.00045728651123791246
+      ],
+      "FPR": [
+        0.162060546875,
+        0.228515625
+      ],
+      "FNR": [
+        0.134765625,
+        0.19921875
+      ],
+      "harm": [
+        0.0013020833333333333,
+        0.007828776041666577
+      ],
+      "extraDecode": [
+        0.027018229166666668,
+        0.0361328125
+      ]
+    },
+    "Whole39": {
+      "netU": [
+        -0.000847618413080151,
+        0.000379024946179318
+      ],
+      "netIoU": [
+        -0.0012538425462813871,
+        0.0010539067009406851
+      ],
+      "FPR": [
+        0.162060546875,
+        0.228515625
+      ],
+      "FNR": [
+        0.134765625,
+        0.19921875
+      ],
+      "harm": [
+        0.005859375,
+        0.016276041666666668
+      ],
+      "extraDecode": [
+        0.0927734375,
+        0.10482584635416661
+      ]
+    },
+    "Whole39SameProposal": {
+      "netU": [
+        -0.0006756910284851378,
+        0.000542587267923712
+      ],
+      "netIoU": [
+        -0.0010890840928089501,
+        0.001246052278887058
+      ],
+      "FPR": [
+        0.162060546875,
+        0.228515625
+      ],
+      "FNR": [
+        0.134765625,
+        0.19921875
+      ],
+      "harm": [
+        0.006510416666666667,
+        0.016927083333333332
+      ],
+      "extraDecode": [
+        0.10514322916666667,
+        0.11784667968749996
+      ]
+    },
+    "PACT": {
+      "netU": [
+        -0.0012716999318120848,
+        0.00013648411355158377
+      ],
+      "netIoU": [
+        -0.002101834754773235,
+        0.00041035103039577036
+      ],
+      "FPR": [
+        0.162060546875,
+        0.228515625
+      ],
+      "FNR": [
+        0.134765625,
+        0.19921875
+      ],
+      "harm": [
+        0.009114583333333334,
+        0.020833333333333332
+      ],
+      "extraDecode": [
+        0.10514322916666667,
+        0.11784667968749996
+      ]
+    },
+    "ForcedAccept": {
+      "netU": [
+        -0.006671895254055319,
+        -0.0036387689261379555
+      ],
+      "netIoU": [
+        -0.005998625576307495,
+        -0.00015470586532657655
+      ],
+      "FPR": [
+        0.162060546875,
+        0.228515625
+      ],
+      "FNR": [
+        0.134765625,
+        0.19921875
+      ],
+      "harm": [
+        0.051432291666666664,
+        0.07486979166666667
+      ],
+      "extraDecode": [
+        0.10514322916666667,
+        0.11784667968749996
+      ]
+    },
+    "UniformBudget": {
+      "netU": [
+        -0.001291845719650155,
+        1.8467234118361245e-05
+      ],
+      "netIoU": [
+        -0.0020785688742142572,
+        0.00025171124447067325
+      ],
+      "FPR": [
+        0.162060546875,
+        0.228515625
+      ],
+      "FNR": [
+        0.134765625,
+        0.19921875
+      ],
+      "harm": [
+        0.010416666666666666,
+        0.021484375
+      ],
+      "extraDecode": [
+        0.12239583333333333,
+        0.13509114583333334
+      ]
+    }
+  },
+  "primary_minus_control_paired95ci": {
+    "SFT": {
+      "netU": [
+        -0.0012716999318120848,
+        0.00013648411355158377
+      ],
+      "netIoU": [
+        -0.002101834754773235,
+        0.00041035103039577036
+      ],
+      "FPR": [
+        0.0,
+        0.0
+      ],
+      "FNR": [
+        0.0,
+        0.0
+      ],
+      "harm": [
+        0.009114583333333334,
+        0.020833333333333332
+      ],
+      "extraDecode": [
+        0.10514322916666667,
+        0.11784667968749996
+      ]
+    },
+    "MeanTarget": {
+      "netU": [
+        -0.0011572238083663252,
+        0.0002768006062633501
+      ],
+      "netIoU": [
+        -0.0019228581247463343,
+        0.0005325370943182971
+      ],
+      "FPR": [
+        0.0,
+        0.0
+      ],
+      "FNR": [
+        0.0,
+        0.0
+      ],
+      "harm": [
+        0.00390625,
+        0.016276041666666668
+      ],
+      "extraDecode": [
+        0.07356770833333333,
+        0.08723958333333333
+      ]
+    },
+    "Whole39": {
+      "netU": [
+        -0.00109240149721154,
+        0.00040529070992549035
+      ],
+      "netIoU": [
+        -0.0022183805270235297,
+        0.000593245716431255
+      ],
+      "FPR": [
+        0.0,
+        0.0
+      ],
+      "FNR": [
+        0.0,
+        0.0
+      ],
+      "harm": [
+        -0.003255208333333334,
+        0.010416666666666666
+      ],
+      "extraDecode": [
+        0.0087890625,
+        0.016927083333333343
+      ]
+    },
+    "Whole39SameProposal": {
+      "netU": [
+        -0.0009773839667420057,
+        -6.98373983614149e-05
+      ],
+      "netIoU": [
+        -0.0018624660458337135,
+        -9.461332172081668e-05
+      ],
+      "FPR": [
+        0.0,
+        0.0
+      ],
+      "FNR": [
+        0.0,
+        0.0
+      ],
+      "harm": [
+        0.0006510416666666661,
+        0.006510416666666666
+      ],
+      "extraDecode": [
+        0.0,
+        0.0
+      ]
+    },
+    "ForcedAccept": {
+      "netU": [
+        0.003229990326681219,
+        0.005908482611872994
+      ],
+      "netIoU": [
+        -0.0002571539048285864,
+        0.004756520599105883
+      ],
+      "FPR": [
+        0.0,
+        0.0
+      ],
+      "FNR": [
+        0.0,
+        0.0
+      ],
+      "harm": [
+        -0.05861002604166667,
+        -0.03841145833333333
+      ],
+      "extraDecode": [
+        0.0,
+        0.0
+      ]
+    },
+    "UniformBudget": {
+      "netU": [
+        -0.0005623915726955601,
+        0.0006896501161584938
+      ],
+      "netIoU": [
+        -0.0010809007431896783,
+        0.0010288596320927532
+      ],
+      "FPR": [
+        0.0,
+        0.0
+      ],
+      "FNR": [
+        0.0,
+        0.0
+      ],
+      "harm": [
+        -0.006510416666666668,
+        0.004557291666666666
+      ],
+      "extraDecode": [
+        -0.02018229166666667,
+        -0.013671874999999986
+      ]
+    }
+  },
+  "queries": 1024,
+  "images": 512,
+  "policy_seeds": [
+    42,
+    43,
+    44
+  ],
+  "new_neural_updates": 0,
+  "new_fits": 0,
+  "original_adapter_updates": 128,
+  "original_auxiliary_fits": 14,
+  "original_small_gate_failed": true,
+  "independent_new_test": false,
+  "previously_consumed_Qwen_diagnostic": true,
+  "formal_adoption_allowed": false,
+  "old_Qwen_mask_scores_reused": false,
+  "source_model_sha256": "f17079491d7c58b279f8f0c9ed1b301020d43a59880ce0594ad70e9102266134",
+  "control_models_sha256": "4c96e72b5844f0ace369c36a26bfd75cd979437b0bed6bcc04a4af7ab253c07a",
+  "capture_sha256": "0ccce3c3b6e579129207ccd9778083867c3edb614f9fb42e99268425450132de",
+  "scoring_sha256": "9f0daeaefb4d1ac6a16e2d0583d9253f8c0474900cc32e8a42a9b90b74c7fb87",
+  "normal_latency_measured": false
+}
